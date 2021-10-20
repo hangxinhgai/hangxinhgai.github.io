@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900');
-   
+ 
+  
 html {
   display: grid;
   min-height: 100%;
@@ -25,11 +26,11 @@ h1 {
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: white;
+  color: #F6F4F3;
 }
 
 #timer {
-  color: white;
+  color: #F6F4F3;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
@@ -46,20 +47,20 @@ h1 {
 }
 
 .days {
-  background: red;
+  background: #EF2F3C;
 }
 
 .hours {
-  background: white;
-  color: dark;
+  background: #F6F4F3;
+  color: #183059;
 }
 
 .minutes {
-  background: blue;
+  background: #276FBF;
 }
 
 .seconds {
-  background: yellow;
+  background: #F0A202;
   .numbers {
    
   }
@@ -67,39 +68,39 @@ h1 {
 
 .numbers {
   font-family: 'Montserrat', sans-serif;
-  color: dark;
+  color: #183059;
   font-size: 4em;
 }
 
 .white {
   position: absolute;
-  background: white;
+  background: #F6F4F3;
   height: 85px;
   width: 75px;
   left: 30%;
   top: 2%;
   .triangle {
-    border-bottom: 14px solid white;
+    border-bottom: 14px solid #F6F4F3;
   }
   .string {
-    background: white;
-    border: 1px solid white;
+    background: #F6F4F3;
+    border: 1px solid #F6F4F3;
   }
 }
 
 .red {
   position: absolute;
-  background: red;
+  background: #EF2F3C;
   left: 18%;
   top: 9%;
   height: 65px;
   width: 70px;
   .triangle {
-    border-bottom: 14px solid red;
+    border-bottom: 14px solid #EF2F3C;
   }
   .string {
-    background: red;
-    border: 1px solid red;
+    background: #EF2F3C;
+    border: 1px solid #EF2F3C;
   }
 }
 
@@ -114,8 +115,8 @@ h1 {
     border-bottom: 14px solid #276FBF;
   }
   .string {
-    background: blue;
-    border: 1px solid blue;
+    background: #276FBF;
+    border: 1px solid #276FBF;
   }
 }
 
@@ -181,7 +182,7 @@ h1 {
 .star {
   width: 20px;
   height: 20px;
-  background: white;
+  background: #F6F4F3;
   -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
@@ -191,7 +192,7 @@ h1 {
   height: 30px;
   margin-left: 51px;
   margin-top: -5px;
-  background: red;
+  background: #EF2F3C;
   -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
@@ -206,13 +207,13 @@ footer {
   font-size: 0.7em;
   p {
     letter-spacing: 3px;
-    color: red;
+    color: #EF2F3C;
   }
   a {
-    color: white;
+    color: #F6F4F3;
     text-decoration: none;
     &:hover {
-      color: blue;
+      color: #276FBF;
     }
   }
 }
