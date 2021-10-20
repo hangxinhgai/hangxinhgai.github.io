@@ -36,11 +36,11 @@ h1 {
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: $white;
+  color: white;
 }
 
 #timer {
-  color: $white;
+  color: white;
   text-align: center;
   text-transform: uppercase;
   font-family: $font;
@@ -57,20 +57,20 @@ h1 {
 }
 
 .days {
-  background: $red;
+  background: red;
 }
 
 .hours {
-  background: $white;
-  color: $dark;
+  background: white;
+  color: dark;
 }
 
 .minutes {
-  background: $blue;
+  background: blue;
 }
 
 .seconds {
-  background: $yellow;
+  background: yellow;
   .numbers {
    
   }
@@ -78,39 +78,39 @@ h1 {
 
 .numbers {
   font-family: $big;
-  color: $dark;
+  color: dark;
   font-size: 4em;
 }
 
 .white {
   position: absolute;
-  background: $white;
+  background: white;
   height: 85px;
   width: 75px;
   left: 30%;
   top: 2%;
   .triangle {
-    border-bottom: 14px solid $white;
+    border-bottom: 14px solid white;
   }
   .string {
-    background: $white;
-    border: 1px solid $white;
+    background: white;
+    border: 1px solid white;
   }
 }
 
 .red {
   position: absolute;
-  background: $red;
+  background: red;
   left: 18%;
   top: 9%;
   height: 65px;
   width: 70px;
   .triangle {
-    border-bottom: 14px solid $red;
+    border-bottom: 14px solid red;
   }
   .string {
-    background: $red;
-    border: 1px solid $red;
+    background: red;
+    border: 1px solid red;
   }
 }
 
@@ -125,8 +125,8 @@ h1 {
     border-bottom: 14px solid $blue;
   }
   .string {
-    background: $blue;
-    border: 1px solid $blue;
+    background: blue;
+    border: 1px solid blue;
   }
 }
 
@@ -192,7 +192,7 @@ h1 {
 .star {
   width: 20px;
   height: 20px;
-  background: $white;
+  background: white;
   -webkit-clip-path: $star;
   clip-path: $star;
 }
@@ -202,7 +202,7 @@ h1 {
   height: 30px;
   margin-left: 51px;
   margin-top: -5px;
-  background: $red;
+  background: red;
   -webkit-clip-path: $star;
   clip-path: $star;
 }
@@ -217,13 +217,13 @@ footer {
   font-size: 0.7em;
   p {
     letter-spacing: 3px;
-    color: $red;
+    color: red;
   }
   a {
-    color: $white;
+    color: white;
     text-decoration: none;
     &:hover {
-      color: $blue;
+      color: blue;
     }
   }
 }
