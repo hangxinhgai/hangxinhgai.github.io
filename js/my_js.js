@@ -1,5 +1,5 @@
 let timer = setInterval(function() {
-  btn_ok();
+  //btn_ok();
 
 }, 1000);
  
