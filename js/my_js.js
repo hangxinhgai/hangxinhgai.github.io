@@ -7,4 +7,11 @@ window.onload = function() {
 	document.getElementById("beep").play();
 }
  
- 
+  function btn_ok() {
+       
+			 document.getElementById("beep").pause();
+			 document.getElementById('beep').muted = false;
+			  
+            document.getElementById("beep").play();
+             
+ };
