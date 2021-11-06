@@ -4,11 +4,6 @@ window.onload = function() {
   // ...
   document.getElementById("beep").pause();
 	document.getElementById('beep').muted = false;
-	//document.getElementById("beep").play();
+	document.getElementById("beep").play();
 }
-
-$(document).ready(function () {
-	document.getElementById("beep").pause();
-	document.getElementById('beep').muted = false;
-	//document.getElementById("beep").play();
-});
+ 
