@@ -4,17 +4,14 @@ window.onload = function() {
   // ...
   document.getElementById("beep").pause();
 	document.getElementById('beep').muted = false;
-	document.getElementById("beep").play();
+	//document.getElementById("beep").play();
 }
  
  
- var promise = document.querySelector('beep').play();
-
-if (promise !== undefined) {
-    promise.then(_ => {
-        // Autoplay started!
-    }).catch(error => {
-        // Autoplay was prevented.
-        // Show a "Play" button so that user can start playback.
-    });
-}
+  var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }
