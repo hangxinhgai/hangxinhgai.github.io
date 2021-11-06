@@ -1,11 +1,10 @@
-window.onload = function() {
-  //var context = new AudioContext();
-  // Setup all nodes
-  // ...
-    document.getElementById("beep").pause();
-	document.getElementById('beep').muted = false;
-	document.getElementById("beep").play();
-}
+let timer = setInterval(function() {
+  document.getElementById("beep").pause();
+			 document.getElementById('beep').muted = false;
+			  
+            document.getElementById("beep").play();
+
+}, 1000);
  
   function btn_ok() {
        
