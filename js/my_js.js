@@ -1,8 +1,5 @@
 let timer = setInterval(function() {
-  document.getElementById("beep").pause();
-			 document.getElementById('beep').muted = false;
-			  
-            document.getElementById("beep").play();
+  btn_ok();
 
 }, 1000);
  
