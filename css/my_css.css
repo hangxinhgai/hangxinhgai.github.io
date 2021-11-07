@@ -343,6 +343,7 @@ footer {
 	background-image: url('../pict/thiep.png');
 	background-repeat: no-repeat; 
 	background-size: 100%;
+	border-radius: 1%;
 	width: 100%;
 	height: 310px;
 	margin-inline: auto; 
